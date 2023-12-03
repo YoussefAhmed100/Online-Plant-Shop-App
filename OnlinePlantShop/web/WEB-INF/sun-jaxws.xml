@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="Service.RegisterService" name="RegisterService" url-pattern="/RegisterService"/>
+  <endpoint implementation="Service.AddPlantService" name="AddPlantService" url-pattern="/AddPlantService"/>
+  <endpoint implementation="Service.AdminLoginService" name="AdminLoginService" url-pattern="/AdminLoginService"/>
+  <endpoint implementation="Service.SellerLoginService" name="SellerLoginService" url-pattern="/SellerLoginService"/>
+  <endpoint implementation="Service.BuyerLoginService" name="BuyerLoginService" url-pattern="/BuyerLoginService"/>
+  <endpoint implementation="Service.AddOrderService" name="AddOrderService" url-pattern="/AddOrderService"/>
+</endpoints>

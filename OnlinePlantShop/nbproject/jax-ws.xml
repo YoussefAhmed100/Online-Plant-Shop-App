@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="RegisterService">
+      <implementation-class>Service.RegisterService</implementation-class>
+    </service>
+    <service name="AddPlantService">
+      <implementation-class>Service.AddPlantService</implementation-class>
+    </service>
+    <service name="AdminLoginService">
+      <implementation-class>Service.AdminLoginService</implementation-class>
+    </service>
+    <service name="SellerLoginService">
+      <implementation-class>Service.SellerLoginService</implementation-class>
+    </service>
+    <service name="BuyerLoginService">
+      <implementation-class>Service.BuyerLoginService</implementation-class>
+    </service>
+    <service name="AddOrderService">
+      <implementation-class>Service.AddOrderService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>
